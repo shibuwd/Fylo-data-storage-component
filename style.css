@@ -41,20 +41,20 @@ body {
 }
 .card-1 {
     background: var(--dark-blue);
-    padding: 2rem 1.5rem;
+    padding: 2.3rem 2rem;
     border-radius: .6rem 6rem .6rem .6rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2.3rem;
 }
 .icons {
     display: flex;
     align-items: center;
     gap: .8rem;
-    margin-top: 1.3rem;
+    margin-top: 1.4rem;
 }
 .document img,
 .folder img,
 .upload img {
-    transform: scale(1.3);
+   transform: scale(1.3);
 }
 
 .document,
@@ -177,7 +177,7 @@ body {
          margin-bottom: 0rem;
      }
     .floting-card {
-        transform: translate(125%, -130%);
+        transform: translate(128%, -130%);
         border-radius: .6rem .6rem 0rem .6rem;
         padding: .8rem 1.2rem;
     }
