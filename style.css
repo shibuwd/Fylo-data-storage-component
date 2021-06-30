@@ -27,6 +27,7 @@ body {
     font-weight: 400;
     -webkit-font-smoothing: antialiased;  
     height: 100%;
+    text-rendering: optimizeSpeed;
 }
 .container {
     display: flex;
