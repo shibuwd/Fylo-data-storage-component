@@ -15,38 +15,39 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="card-container">
-            <div class="card-1">
-                <div class="logo">
-                    <img src="./img/logo.svg" alt="Fylo logo">
+    <main>
+        <div class="container">
+            <div class="card-container">
+                <div class="card-1">
+                    <div class="logo">
+                        <img src="./img/logo.svg" alt="Fylo logo">
+                    </div>
+                    <div class="icons">
+                        <a class="btn" href="#"><img src="./img/icon-document.svg" alt="document"></a>
+                        <a class="btn" href="#"><img src="./img/icon-folder.svg" alt="folder"></a>
+                        <a class="btn" href="#"><img src="./img/icon-upload.svg" alt="upload"></a>
+                    </div>
                 </div>
-                <div class="icons">
-                    <a class="btn" href="#"><img src="./img/icon-document.svg" alt="document"></a>
-                    <a class="btn" href="#"><img src="./img/icon-folder.svg" alt="folder"></a>
-                    <a class="btn" href="#"><img src="./img/icon-upload.svg" alt="upload"></a>
+                <div class="card-2">
+                    <p>You’ve used <span>815 gb</span> of your storage</p>
+                    <div class="limit-indicator">
+                        <div class="round-icon"></div>
+                        <progress max="100" value="85"></progress>
+                        <!-- <progress value="85" min="0" max="100"></progress> -->
+                    </div>
+                    <div class="total-data">
+                        <span>0 gb</span>
+                        <span>1000 gb</span>
+                    </div>
                 </div>
-            </div>
-            <div class="card-2">
-                <p>You’ve used <span>815 gb</span> of your storage</p>
-                <div class="limit-indicator">
-                    <div class="round-icon"></div>
-                    <!-- <progress max="100" value="85"></progress> -->
-                    <progress value="85" min="0" max="100"></progress>
+                <div class="floting-card">
+                    <p>185</p>
+                    <span>gb left</span>
+                    <div class="caret"></div>
                 </div>
-                <div class="total-data">
-                    <span>0 gb</span>
-                    <span>1000 gb</span>
-                </div>
-            </div>
-            <div class="floting-card">
-                <p>185</p>
-                <span>gb left</span>
-                <div class="caret"></div>
             </div>
         </div>
-    </div>
-
+    </main>
     <footer>
         <div class="attribution">
             Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
